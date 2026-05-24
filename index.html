@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agora - Fresh Grocery Delivery</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <!-- ========== NAVBAR ========== -->
+    <nav class="header">
+        <a href="#" class="head" style="margin-left: 20px;">agora</a>
+        <div>
+            <div>
+                <i class="fas fa-search"></i>
+                <input class="search" type="text" placeholder="Find products">
+            </div>
+        </div>
+        <ul class="dropdown">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <div class="head-foot" style="margin-left: 20px;">
+            <a href="#"><i class="far fa-bell"></i></a>
+            <a href="#"><i class="far fa-heart"></i></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            <a href="#"><i class="far fa-user-circle"></i></a>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero">
+        <div>
+            <div>
+                <h1 id="hero-op">Make healthy <br>life with <span>fresh </span><br>grocery</h1>
+                <p id="hero-op2">Get fresh vegetables, fruits, and daily groceries delivered to your home.</p>
+                <button id="shop-btn" class="fas fa-shopping-cart" style="padding: 5px;">Shop now</button>
+            </div>
+            <div>
+                <div>
+                    <img id="image" src="img/sayur.jpg" alt="Hero Image" style="display: none;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FEATURED CATEGORIES ========== -->
+    <section class="feature">
+        <div class="product">
+            <div>
+                <h2 style="margin-left: 10px;">Featured Categories</h2>
+                <a href="">View all <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <!-- Category Cards -->
+            <div class="product-list">
+                <div>
+                    <img src="img/sayur.jpg" alt="Vegetables">
+                    <h3>Vegetables</h3>
+                </div>
+                <div>
+                    <img src="img/daging.jpg" alt="Meat">
+                    <h3>Meat</h3>
+                </div>
+                <div>
+                    <img src="img/seafood.jpg" alt="Seafood">
+                    <h3>Seafood</h3>
+                </div>
+                <div>
+                    <img src="img/buah.jpg" alt="Fruits">
+                    <h3>Fruits</h3>
+                </div>
+                <div>
+                    <img src="img/bakery.jpg" alt="Bakery">
+                    <h3>Bakery</h3>
+                </div>
+            </div>
+            <!-- Promotional Cards -->
+            <div class="promo">
+                <div class="product-list">
+                    <div>
+                        <div>Flat 20% Discount</div>
+                        <h3>Purely Fresh<br>Vegetables</h3>
+                        <button>Buy now <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <img src="img/promo sayur.jpg" alt="Vegetables Promo">
+                </div>
+                <div class="product-list">
+                    <div>
+                        <div>Flat 25% Discount</div>
+                        <h3>Fresh Fruits<br>Pure Quality</h3>
+                        <button>Buy now <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                    <img src="img/promo buah.jpg" alt="Fruits Promo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FEATURED PRODUCTS ========== -->
+    <section class="product">
+        <div>
+            <div>
+                <p style="font-size: 100px;text-align: center;">Products</p>
+                <h2 style="margin-left: 10px;">Featured <span>Products</span></h2>
+            </div>
+            <!-- List Produk -->
+            <div class="product-list">
+                <div>
+                    <img src="img/telur.jpg" alt="Premium Egg">
+                    <h3>Premium Egg</h3>
+                    <p>$9.00</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+                <div>
+                    <img src="img/beef steak.jpg" alt="Beef Steak">
+                    <h3>Beef Steak</h3>
+                    <p>$80.00</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+                <div>
+                    <img src="img/pepaya.jpg" alt="Papaya">
+                    <h3>Papaya</h3>
+                    <p>$18.99</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+                <div>
+                    <img src="img/semangka.jpg" alt="Watermelon">
+                    <h3>Watermelon</h3>
+                    <p>$12.99</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+                <div>
+                    <img src="img/nanas.jpg" alt="PineApple">
+                    <h3>PineApple</h3>
+                    <p>$9.99</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+                <div>
+                    <img src="img/tuna.jpg" alt="Tuna">
+                    <h3>Tuna</h3>
+                    <p>$12.99</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+                <div>
+                    <img src="img/jeruk.jpg" alt="Orange">
+                    <h3>Orange</h3>
+                    <p>$9.89</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+                <div>
+                    <img src="img/apel.jpg" alt="Apple">
+                    <h3>Apple</h3>
+                    <p>$8.99</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+            </div>
+            <!-- See More Button -->
+            <div>
+                <button style="display: none;">See More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SUMMER DISCOUNT ========== -->
+    <section class="summer-discount">
+        <div>
+            <div>
+                <div>
+                    <h2 style="margin-left: 10px;">Summer Discount</h2>
+                    <p style="margin-left: 10px;text-align: center;">Get 50% off Limited Time Offer</p>
+
+                    <div class="timer">
+                        <div>
+                            <span id="days">00</span>
+                            <span id="t">Days</span>
+                        </div>
+                        <div>
+                            <span id="hours">00</span>
+                            <span id="t">Hours</span>
+                        </div>
+                        <div>
+                            <span id="minutes">00</span>
+                            <span id="t">Minutes</span>
+                        </div>
+                        <div>
+                            <span id="seconds">00</span>
+                            <span id="t">Seconds</span>
+                        </div>
+                    </div>
+
+                    <button class="fas fa-shopping-cart" style="height: 150px;width: 300px;font-size: 50px;border: none;margin-top: 30px;animation: pelangi 5s linear infinite;border-radius: 10px;margin-bottom: 30px;">Shop now</button>
+                </div>
+                <div>
+                    <img src="img/summer diskon.jpg" alt="Summer Discount" style="width: 100%; height: 700px">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== DEALS OF THE DAY ========== -->
+    <section>
+        <div class="product">
+            <div>
+                <p style="font-size: 50px;text-align: center;margin-top: 30px;">Today Deals</p>
+                <h2>Deals of the Day <span>Price under $10</span></h2>
+            </div>
+            <!-- List Produk -->
+            <div class="product-list">
+                <div>
+                    <img src="img/filet ayam.jpg" alt="Chicken Fillet">
+                    <h3>Chicken Fillet</h3>
+                    <p>$4.99</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+                <div>
+                    <img src="img/beef.jpg" alt="Beef">
+                    <h3>Beef</h3>
+                    <p>$7.99</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+                <div>
+                    <img src="img/spinach.jpg" alt="Spinach">
+                    <h3>Spinach</h3>
+                    <p>$5.99</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+                <div>
+                    <img src="img/spinach.jpg" alt="Cabbage">
+                    <h3>Cabbage</h3>
+                    <p>$6.99</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+                <div>
+                    <img src="img/mangga.jpg" alt="Mango">
+                    <h3>Mango</h3>
+                    <p>$4.99</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+                <div>
+                    <img src="img/apel.jpg" alt="Apple 1kg">
+                    <h3>Apple 1kg</h3>
+                    <p>$8.99</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+                <div>
+                    <img src="img/pisang.jpg" alt="Banana">
+                    <h3>Banana</h3>
+                    <p>$7.99</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+                <div>
+                    <img src="img/alpukat.jpg" alt="Avocado">
+                    <h3>Avocado</h3>
+                    <p>$8.99</p>
+                    <button class="fas fa-shopping-cart">Add to cart</button>
+                </div>
+            </div>
+            <!-- See More Button -->
+            <div>
+                <button style="display: none;">See More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div>
+            <div>
+                <h5>agora</h5>
+                <p>Fresh groceries delivered to your doorstep. Making healthy living accessible to everyone.</p>
+            </div>
+            <div class="link">
+                <h6>Quick Links</h6>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h6>Support</h6>
+                <ul>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h6>Legal</h6>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Cookies</a></li>
+                    <li><a href="#">Licenses</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h6>Follow Us</h6>
+                <div>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="super-foot">
+            <p>&copy; 2024 Agora. All rights reserved. | Fresh Grocery Delivery Service</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
